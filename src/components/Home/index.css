@@ -1,0 +1,69 @@
+.loader-container {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 90%;
+}
+
+.heading-success {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.un-order-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.failure-home {
+  height: 280px;
+  width: 250px;
+}
+
+.failure-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.failure-heading-home {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.failure-description-home {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.failure-retry-btn {
+  color: #ffffff;
+  background-color: #4656a1;
+  line-height: 2;
+  border-width: 0px;
+  border-radius: 4px;
+  width: 60px;
+  font-size: 12px;
+}
